@@ -1,0 +1,40 @@
+sudo: false
+install: true
+language: android
+jdk: oraclejdk8
+android:
+  components:
+    # use the latest revision of Android SDK Tools
+    - tools
+
+     # The BuildTools version used by your project
+    - build-tools-26.0.2
+
+    - platform-tools
+
+     # Extra
+    - extra-android-support
+    - extra-android-m2repository
+    - extra-google-m2repository
+
+    # The SDK version used to compile your project
+    - android-26
+
+  before_script:
+    - echo no | android create avd --force -n test -t android-26 --abi armeabi-v7a
+    - emulator -avd test -no-skin -no-audio -no-window &
+    - android-wait-for-emulator
+    - adb shell input keyevent 82 &
+
+script:
+    - chmod +x deploy.sh
+    - chmod +x configure.sh
+    - chmod +x changelog.sh
+    - chmod +x buildReleaseApp.sh
+    - . deploy.sh
+
+cache:
+    directories:
+      - $HOME/.m2
+      - $HOME/.gradle
+      - $ANDROID_HOME

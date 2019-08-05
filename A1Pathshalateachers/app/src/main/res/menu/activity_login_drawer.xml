@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_menu_attendance"
+            android:title="Attendance" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_broadcast"
+            android:icon="@drawable/ic_menu_brdcst"
+            android:title="Broadcast Message" />
+        <item
+            android:id="@+id/nav_complaint"
+            android:icon="@drawable/ic_menu_prnts_msg"
+            android:title="Message to Parents" />
+        <item
+            android:id="@+id/nav_homework"
+            android:icon="@drawable/ic_menu_hw"
+            android:title="Homework" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_feenp"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Fee Due Notification" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_group"
+            android:icon="@drawable/ic_menu_group_message"
+            android:title="Group Message" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_about"
+            android:title="About" />
+    </group>
+
+</menu>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/spinner_attendance_type"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"/>
+        </LinearLayout></android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/attendance_type_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/attendance_type_1_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:ellipsize="end"
+                android:textColor="@color/colorPrimary"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:text="View attendance report"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <com.mikepenz.iconics.view.IconicsImageView
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    card_view:iiv_color="@color/colorAccent"
+                    card_view:iiv_icon="gmi-calendar"/>
+
+
+                <EditText
+                    android:hint="Enter Date"
+                    android:id="@+id/et_attendance_type_1_date"
+                    android:inputType="date"
+                    android:layout_margin="5dp"
+                    android:background="#00000000"
+                    android:drawableTint="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <com.mikepenz.iconics.view.IconicsImageView
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    card_view:iiv_color="@color/colorAccent"
+                    card_view:iiv_icon="cmd-school"/>
+
+
+                <Spinner
+                    android:id="@+id/spinner_attendance_type1_class"
+                    android:layout_width="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <com.mikepenz.iconics.view.IconicsImageView
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    card_view:iiv_color="@color/colorAccent"
+                    card_view:iiv_icon="cmd-source-branch"/>
+
+
+                <Spinner
+                    android:id="@+id/spinner_attendance_type1_sec"
+                    android:layout_width="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/bt_attendance_type1"
+                android:text="Submit"
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/white"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout></android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/attendance_type_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/attendance_type_2_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:ellipsize="end"
+                android:textColor="@color/colorPrimary"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:text="View attendance by class"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <com.mikepenz.iconics.view.IconicsImageView
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    card_view:iiv_color="@color/colorAccent"
+                    card_view:iiv_icon="cmd-school"/>
+
+
+                <Spinner
+                    android:id="@+id/spinner_attendance_type2_class"
+                    android:layout_width="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <com.mikepenz.iconics.view.IconicsImageView
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    card_view:iiv_color="@color/colorAccent"
+                    card_view:iiv_icon="cmd-source-branch"/>
+
+
+                <Spinner
+                    android:id="@+id/spinner_attendance_type2_sec"
+                    android:layout_width="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/bt_attendance_type2"
+                android:text="Submit"
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/white"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout></android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/attendance_type_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/attendance_type_3_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:ellipsize="end"
+                android:textColor="@color/colorPrimary"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:text="View attendance by date"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <com.mikepenz.iconics.view.IconicsImageView
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    card_view:iiv_color="@color/colorAccent"
+                    card_view:iiv_icon="gmi-calendar"/>
+
+
+                <EditText
+                    android:hint="Enter Date"
+                    android:id="@+id/et_attendance_type_3_date"
+                    android:inputType="date"
+                    android:layout_margin="5dp"
+                    android:background="#00000000"
+                    android:drawableTint="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/bt_attendance_type3"
+                android:text="Submit"
+                android:background="@color/colorAccent"
+                android:textColor="@android:color/white"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout></android.support.v7.widget.CardView>
+
+</LinearLayout>

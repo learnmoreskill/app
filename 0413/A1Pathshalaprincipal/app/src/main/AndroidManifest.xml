@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hacksterkrishna.a1principal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.hacksterkrishna.a1principal.activity.LoggedoutActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.hacksterkrishna.a1principal.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.hacksterkrishna.a1principal.activity.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hacksterkrishna.a1principal.activity.StudentDetailsActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.hacksterkrishna.a1principal.activity.LoginActivity" />
+        <activity android:name="com.hacksterkrishna.a1principal.activity.StudentDetailAttendance"
+                  android:screenOrientation="portrait" />
+        <activity android:name="com.hacksterkrishna.a1principal.activity.StudentDetailComplaint"
+                  android:screenOrientation="portrait" />
+        <activity android:name="com.hacksterkrishna.a1principal.activity.StudentDetailHomework"
+                  android:screenOrientation="portrait" />
+        <activity android:name="com.hacksterkrishna.a1principal.activity.AttendanceType1View"
+                  android:screenOrientation="portrait" />
+        <activity android:name="com.hacksterkrishna.a1principal.activity.AttendanceType2View"
+                  android:screenOrientation="portrait" />
+        <activity android:name="com.hacksterkrishna.a1principal.activity.AttendanceType3View"
+                  android:screenOrientation="portrait" />
+        <activity android:name="com.hacksterkrishna.a1principal.activity.BroadCastActivity"
+                  android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hacksterkrishna.a1principal.activity.AboutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.MaterialAboutActivity" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ad4d8ca94e5696180c1d7546bc3f988a9d8b9ef6" />
+    </application>
+
+</manifest>

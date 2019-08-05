@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">A1Pathshala Teacher</string>
+    <string name="login_page">A1Pathshala Teachers Login</string>
+    <string name="brand_name">A1Pathshala Teacher\u2122</string>
+    <string name="splash_name">A1Pathshala Teacher</string>
+    <string name="brand_desc">\u00A9 Grab Infotech</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="attendance_take">Good Morning, Ready for the attendance.</string>
+    <string name="attendance_taken">You have already taken today\'s attendance. You can click the below button to view and edit today\'s class strength.</string>
+    <string name="prompt_school">Select School</string>
+
+    <string-array name="autocomplete">
+        <item>Janki Higher S. School</item>
+        <item>Nirmal Gunga Higher Secondary School</item>
+        <item>Shree Ram Higher Secondary School</item>
+        <item>Moonlight Secondary School</item>
+        <item>Gautam ESB School</item>
+        <item>Manisha h s e b school</item>
+        <item>Rivan s school</item>
+        <item>Usha s school</item>
+        <item>Milton English Boarding School</item>
+    </string-array>
+
+    <string name="one">Janki Higher S. School</string>
+    <string name="one_url">http://52.14.74.97/ossm/</string>
+
+    <string name="two">Nirmal Gunga Higher Secondary School</string>
+    <string name="two_url">https://a1pathshala.com/demo/</string>
+
+    <string name="three">Shree Ram Higher Secondary School</string>
+    <string name="three_url">https://a1pathshala.com/shreerammanager/</string>
+
+    <string name="four">Moonlight Secondary School</string>
+    <string name="four_url">https://a1pathshala.com/moonlightmanager/</string>
+
+    <string name="five">Gautam ESB School</string>
+    <string name="five_url">https://hacksterkrishna.com/gautam/</string>
+
+    <string name="six">Manisha h s e b school</string>
+    <string name="six_url">https://hacksterkrishna.com/manisha/</string>
+
+    <string name="seven">Rivan s school</string>
+    <string name="seven_url">https://hacksterkrishna.com/rivan/</string>
+
+    <string name="eight">Usha s school</string>
+    <string name="eight_url">https://hacksterkrishna.com/usha/</string>
+
+    <string name="nine">Milton English Boarding School</string>
+    <string name="nine_url">https://hacksterkrishna.com/milton/</string>
+
+</resources>

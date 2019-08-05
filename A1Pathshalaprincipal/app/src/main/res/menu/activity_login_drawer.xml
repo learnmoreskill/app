@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_stdnt_details"
+            android:icon="@drawable/ic_menu_student_details"
+            android:title="Student Details" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_menu_attendance"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/nav_hw"
+            android:icon="@drawable/ic_menu_hw"
+            android:title="Home Works" />
+        <item
+            android:id="@+id/nav_prnts_msg"
+            android:icon="@drawable/ic_menu_prnts_msg"
+            android:title="Messages to parents" />
+        <item
+            android:id="@+id/nav_brdcst_msg"
+            android:icon="@drawable/ic_menu_brdcst"
+            android:title="Broadcast Messages" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_send_brdcst_msg"
+            android:icon="@drawable/ic_menu_send"
+            android:title="My Broadcast" />
+    </group>
+
+        <group>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Logout" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_about"
+                android:title="About" />
+        </group>
+
+</menu>

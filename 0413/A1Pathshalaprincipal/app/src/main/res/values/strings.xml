@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">A1Pathshala Principal</string>
+    <string name="login_page">A1Pathshala Principal Login</string>
+    <string name="brand_name">A1Pathshala Principal\u2122</string>
+    <string name="splash_name">A1Pathshala Principal</string>
+    <string name="brand_desc">\u00A9 Grab Infotech</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="prompt_school">Select School</string>
+
+    <string-array name="autocomplete">
+        <item>Janki Higher S. School</item>
+        <item>Don Bosco School</item>
+        <item>Shanti HSEB School</item>
+        <item>Henry EB School</item>
+        <item>Gautam ESB School</item>
+        <item>Manisha h s e b school</item>
+        <item>Rivan s school</item>
+        <item>Usha s school,janakpur</item>
+        <item>Milton English Boarding School,janakpur</item>
+    </string-array>
+
+    <string name="one">Janki Higher S. School</string>
+    <string name="one_url">https://hacksterkrishna.com/ossm/</string>
+
+    <string name="two">Don Bosco School</string>
+    <string name="two_url">https://hacksterkrishna.com/donbosco/</string>
+
+    <string name="three">Shanti HSEB School</string>
+    <string name="three_url">https://hacksterkrishna.com/shanti/</string>
+
+    <string name="four">Henry EB School</string>
+    <string name="four_url">https://hacksterkrishna.com/henry/</string>
+
+    <string name="five">Gautam ESB School</string>
+    <string name="five_url">https://hacksterkrishna.com/gautam/</string>
+
+    <string name="six">Manisha h s e b school</string>
+    <string name="six_url">https://hacksterkrishna.com/manisha/</string>
+
+    <string name="seven">Rivan s school</string>
+    <string name="seven_url">https://hacksterkrishna.com/rivan/</string>
+
+    <string name="eight">Usha s school,janakpur</string>
+    <string name="eight_url">https://hacksterkrishna.com/usha/</string>
+
+    <string name="nine">Milton English Boarding School,janakpur</string>
+    <string name="nine_url">https://hacksterkrishna.com/milton/</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">A1Pathshala Parents</string>
+    <string name="login_page">A1Pathshala Parents Login</string>
+    <string name="brand_name">A1Pathshala Parents\u2122</string>
+    <string name="splash_name">A1Pathshala Parents</string>
+    <string name="brand_desc">\u00A9 Grab Infotech</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="prompt_school">Select School</string>
+
+
+</resources>

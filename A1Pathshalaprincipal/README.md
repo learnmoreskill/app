@@ -1,0 +1,3 @@
+# WPprincipal_client
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/83db115f387040a1889340cb366698fd)](https://www.codacy.com/app/ishubhamsingh/WPprincipal_client?utm_source=github.com&utm_medium=referral&utm_content=ishubhamsingh/WPprincipal_client&utm_campaign=badger)
+[![Build Status](https://travis-ci.com/ishubhamsingh/WPprincipal_client.svg?token=NxGaPFKKAE7KwUgvwzyq&branch=master)](https://travis-ci.com/ishubhamsingh/WPprincipal_client)

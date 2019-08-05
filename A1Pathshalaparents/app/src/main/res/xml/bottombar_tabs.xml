@@ -1,0 +1,33 @@
+<tabs>
+
+    <tab
+        id="@+id/navigation_dashboard"
+        icon="@drawable/ic_home_black_24dp"
+        title="@string/title_dashboard"
+        barColorWhenSelected="@color/colorAbsent"/>
+
+    <tab
+        id="@+id/navigation_attendance"
+        icon="@drawable/ic_menu_attendance"
+        title="Attendance"
+        barColorWhenSelected="@color/colorAbsent"/>
+
+    <tab
+        id="@+id/navigation_complaint"
+        icon="@drawable/ic_menu_complaint"
+        title="My messages"
+        barColorWhenSelected="@color/colorAbsent"/>
+
+    <tab
+        id="@+id/navigation_homework"
+        icon="@drawable/ic_menu_hw"
+        title="Homework"
+        barColorWhenSelected="@color/colorAbsent"/>
+
+    <tab
+        id="@+id/navigation_announcement"
+        icon="@drawable/ic_menu_announcement"
+        title="Announcement"
+        barColorWhenSelected="@color/colorAbsent"/>
+
+</tabs>

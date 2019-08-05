@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hacksterkrishna.a1teachers">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.hacksterkrishna.a1teachers.activity.LoggedoutActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.hacksterkrishna.a1teachers.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.hacksterkrishna.a1teachers.activity.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.hacksterkrishna.a1teachers.activity.BroadCastActivity" />
+        <activity android:name="com.hacksterkrishna.a1teachers.activity.ComplaintActivity" />
+        <activity android:name="com.hacksterkrishna.a1teachers.activity.ComplaintSendActivity" />
+        <activity android:name="com.hacksterkrishna.a1teachers.activity.AttendanceActivity" />
+        <activity android:name="com.hacksterkrishna.a1teachers.activity.AttendanceEditActivity" />
+        <activity android:name="com.hacksterkrishna.a1teachers.activity.AttendanceViewActivity" />
+        <activity android:name="com.hacksterkrishna.a1teachers.activity.HomeworkActivity" />
+        <activity android:name="com.hacksterkrishna.a1teachers.activity.HomeworkNotDoneActivity"/>
+        <activity
+            android:name="com.hacksterkrishna.a1teachers.activity.AboutActivity"
+            android:theme="@style/AppTheme.MaterialAboutActivity" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ad4d8ca94e5696180c1d7546bc3f988a9d8b9ef6" />
+    </application>
+
+</manifest>

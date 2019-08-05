@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hacksterkrishna.a1principal.activity.StudentDetailsActivity">
+
+    <ProgressBar
+        style="@style/Base.Widget.AppCompat.ProgressBar"
+        android:id="@+id/sd_view_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:indeterminate="true"
+        android:layout_marginTop="15dp"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/sd_view_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/sd_view_sheading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:padding="5dp"
+                android:layout_weight="5"
+                android:ellipsize="end"
+                android:textColor="@color/colorAccent"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:text="Student's Info"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_gravity="top"
+                    android:src="@drawable/ic_student" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/sd_view_sname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:padding="5dp"
+                        android:textColor="@color/colorPrimary"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:text="Name"/>
+                    <com.mikepenz.iconics.view.IconicsTextView
+                        android:id="@+id/tv_sd_view_class"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textColor="@color/colorAccent"
+                        android:gravity="start"
+                        android:textSize="16sp"
+                        android:maxLines="1"
+                        android:text="{cmd-school} Class-Sec"/>
+                    <com.mikepenz.iconics.view.IconicsTextView
+                        android:id="@+id/tv_sd_view_rollno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textColor="@color/colorAccent"
+                        android:gravity="start"
+                        android:textSize="16sp"
+                        android:maxLines="1"
+                        android:text="{cmd-file-document-box} Roll No"/>
+                    <com.mikepenz.iconics.view.IconicsTextView
+                        android:id="@+id/tv_sd_view_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textColor="@color/colorAccent"
+                        android:gravity="start"
+                        android:textSize="16sp"
+                        android:maxLines="1"
+                        android:text="{cmd-email} Email"/>
+                    <com.mikepenz.iconics.view.IconicsTextView
+                        android:id="@+id/tv_sd_view_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textColor="@color/colorAccent"
+                        android:gravity="start"
+                        android:textSize="16sp"
+                        android:maxLines="1"
+                        android:text="{cmd-home} Address"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/sd_view_parents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/sd_view_spheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:padding="5dp"
+            android:layout_weight="5"
+            android:ellipsize="end"
+            android:textColor="@color/colorAccent"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:text="Guardian's Info"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_gravity="top"
+                android:src="@drawable/ic_parents" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/sd_view_spname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:padding="5dp"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:text="Name"/>
+                <com.mikepenz.iconics.view.IconicsTextView
+                    android:id="@+id/tv_sd_view_spnumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="start"
+                    android:textSize="16sp"
+                    android:maxLines="1"
+                    android:text="{cmd-cellphone-android} Number"/>
+                <com.mikepenz.iconics.view.IconicsTextView
+                    android:id="@+id/tv_sd_view_spemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="start"
+                    android:textSize="16sp"
+                    android:maxLines="1"
+                    android:text="{cmd-email} Email"/>
+            </LinearLayout>
+        </LinearLayout></LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bt_sd_view_attendance"
+            android:text="{cmd-poll-box} Attendance"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bt_sd_view_complaint"
+            android:text="{cmd-alert-box} Complaints"
+            android:background="@color/colorAccent"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/bt_sd_view_hwnotdone"
+            android:text="{cmd-book} Homeworks"
+            android:background="@color/colorAccent"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
